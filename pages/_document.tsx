@@ -9,6 +9,7 @@ class MyDocument extends Document {
         <Head>
           {FONTS.map(font => (
             <link
+              key={font}
               href={`https://fonts.googleapis.com/css2?family=${font}&display=optional`}
               rel="stylesheet"
             />
